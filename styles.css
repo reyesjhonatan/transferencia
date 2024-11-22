@@ -1,0 +1,154 @@
+body {
+    font-family: "Roboto", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}*/
+
+header {
+    /*background: #4CAF50;*/
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    background-image: url('images/encabezado.jpg');
+    background-size: cover; /* Escala la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.headerM {
+    color: white;
+    /*padding: 1em 0;*/
+    text-align: center;
+    color: white;
+    height: 100%;
+    text-align: center;
+    background-image: url('images/encabezado2.png');
+    background-size: cover; /* Escala la imagen para cubrir todo el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.inicioL {
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.claseM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.tableM {
+    width: 20%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableM th,
+.tableM td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.claseHV {
+    padding: 20px;
+}
+
+.imgM {
+    margin-top: 30px;
+}
+
+.imgCerti {
+    width: 50%;
+
+}
+
+.imgAvatar {
+    width: 10%;
+    align-items: center;
+    margin-left: 100px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+ul,
+table {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #c6c7c6;
+    color: white;
+    margin-top: 20px;
+}
+
+.footerM {
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    background: white;
+    margin-top: 40px;
+    text-emphasis-color: blue;
+    text-align-last: center;
+}
+
+.footText {
+    color: black;
+    margin-top: 40px;
+    font-family: "Caveat", cursive;
+}
